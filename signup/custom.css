@@ -1,0 +1,62 @@
+body{
+    margin:10px,0px;
+    background: url("bw.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,100%,100%;;
+    
+}
+.container{
+    
+    
+    
+    width:30%;
+    height:700px;
+    position: absolute;
+    top:50px;
+  ;
+    
+    left:550px;
+}
+form{
+    padding:20px;
+    color: rgb(250, 251, 251);
+    font-size: 15px;
+    
+
+}
+input{
+    padding:10px;
+    margin:10px;
+    
+}
+input[type="text"],[type="email"],input[type="password"] {
+    width:70%;
+
+
+}
+button{
+    
+    padding:5px;
+    margin: 10px;
+    height:50px;
+    width:94%;
+    color:white;
+    background-color: black;
+    
+}
+button:hover{
+    background-color: grey;
+    cursor: grab;
+    opacity:0.6;
+}
+h2{
+    text-align: center;
+}
+.invalid-warning{
+    color: red;
+    
+
+}
+.hidden{
+    display: none;
+}
